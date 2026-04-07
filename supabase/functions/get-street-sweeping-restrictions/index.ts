@@ -45,17 +45,6 @@ Deno.serve(async (req) => {
       week1, week2, week3, week4, week5,
       holidays
     } = location || {}
-    /*
-    weekday: string; ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
-    from_time: string; e.g. "00:00"
-    to_time: string; e.g. "06:00"
-    week1: boolean;
-    week2: boolean;
-    week3: boolean;
-    week4: boolean;
-    week5: boolean;
-    holidays: boolean;
-    */
 
    const responseData = {
     weekday, from_time, to_time,
